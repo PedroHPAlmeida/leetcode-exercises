@@ -17,13 +17,6 @@ def convertToNumber(node: ListNode) -> int:
     return int(''.join(numerals))
 
 
-def showNumber(node: ListNode):
-    while node:
-        if node:
-            print(node.val, end='')
-        node = node.next
-
-
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         n1 = convertToNumber(l1)
